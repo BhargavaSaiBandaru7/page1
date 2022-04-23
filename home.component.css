@@ -1,0 +1,22 @@
+.welcome
+{
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.registerbutton
+{
+    background-color: palegoldenrod;
+}
+.displaybutton
+{
+    background-color: palegoldenrod;
+}
+.registerbutton:hover
+{
+    font-size: large;
+}
+.displaybutton:hover
+{
+    font-size: large;
+}

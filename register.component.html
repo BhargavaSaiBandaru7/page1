@@ -1,0 +1,32 @@
+<h1 class="header">Register!</h1>
+<form [formGroup]="form"  (click)="submit()" >
+    <div class="body">
+        <h1 class="hbody">FORM</h1>
+        <table>
+        <tr>
+            <th>Name</th>
+            <input type="text" formControlName="username" name="username" class="val" >
+        </tr>
+        <tr>
+            <th>Age</th>
+            <input type="number" formControlName="userage" name="userage" class="val" id="ag">
+        </tr>
+        <tr>
+            <th>Phone Number</th>
+            <input type="text" formControlName="userpn" name="userpn" class="val">
+        </tr>
+        <tr>
+            <th>Email</th>
+            <input type="text" formControlName="usermail" name="usermail" class="val">
+        </tr>
+        <tr>
+            <th>Comments</th>
+            <input type="text" formControlName="usercomments" name="usercomments" class="val">
+        </tr>
+        </table>
+        <button>ADD</button>
+    <div class="buttons"> 
+        <button class="homebutton"><a routerLink="/home">HOME</a></button>
+        <button class="displaybutton"><a routerLink="/display">Display User</a></button>
+    </div>
+
